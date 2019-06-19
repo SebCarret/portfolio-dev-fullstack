@@ -1,33 +1,240 @@
+/* APP style */
 .App {
   text-align: center;
+  background: linear-gradient(#343A3F, #64E9EE)
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* NAVBAR styles */
+#navbar-brand {
+  color: white
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.icons {
+  color: white
+}
+
+.icons:hover {
+  color: #64E9EE
+}
+
+.button {
+  height: 40px !important;
+  background: #64E9EE !important;
+  border: none !important;
+  margin: 5px
+}
+
+.button:hover {
+  background: #FF220C !important;
+}
+
+#dropdown-toggle {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: white
+}
+
+#dropdown-menu {
+  background-color: #64E9EE !important
+}
+
+.icons-dropdown {
+  margin-right: 10px
+}
+
+.link-dropdown {
+  color: #27A18E !important;
+}
+
+.link-dropdown:hover {
+  color: #e66465 !important;
+  text-decoration: none;
+}
+
+/* HEADER styles  */
+.header {
+  margin-bottom: 10px !important;
+  border-radius: 10px !important;
+  height: 100vh !important;
+  background: transparent !important;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important
+}
+
+#text-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* ABOUT styles */
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  height: 100vh;
+  padding: 25px;
+  border-radius: 10px;
   color: white;
+  margin-bottom: 10px
 }
 
-.App-link {
-  color: #61dafb;
+#about-header {
+  border-radius: 5%;
+  margin-top: 60px;
+  padding: 10px;
+  background: transparent;
+  border: 2px solid #64E9EE;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#avatar {
+  width: 180px;
+  border-radius: 50%;
+  margin: 10px
+}
+
+#phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+#phone-icon {
+  margin-right: 10px
+}
+
+#text-about {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify
+}
+
+/* SKILLS styles */
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  height: 100vh;
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px
+}
+
+#langages {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+
+.h2 {
+  margin: 50px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px !important;
+  text-align: left;
+  font-size: 25px !important
+}
+
+.progress {
+  height: 25px !important;
+  font-size: 17px !important
+}
+
+/* PARTICLES style */
+#particles {
+  position:fixed !important;
+  width:100%;
+  height:100%
+}
+
+/* TITLES styles */
+h1 {
+  font-family: Poppins !important;
+  font-size: 50px !important;
+  font-weight: bold !important;
+}
+
+h4 {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important
+}
+
+h5 {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important
+}
+
+/* PORTOFOLIO styles */
+#portfolio {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  height: 100vh;
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 100% !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important
+}
+
+.projects-details {
+  color: #343A3F;
+  margin: 5px;
+  background-color: transparent !important;
+  border-radius: 5% !important;
+  border: 2px solid #343A3F !important
+}
+
+.button-portfolio {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items:flex-start !important
+}
+
+.icon-portfolio {
+  margin: 10px
+}
+
+.details-button {
+  height: 40px !important;
+  background: #343A3F !important;
+  border: none !important;
+  margin: 5px
+}
+
+.details-button:hover {
+  background: #64E9EE !important;
+}
+
+.card-portfolio {
+  background-color: #343A3F !important;
+  color: white
 }
