@@ -111,7 +111,7 @@ class Navigation extends React.Component {
                   </a>
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <Button className="button" href="mailto:sebastien.carret78@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="1x" /> Me contacter</Button>
+              <Button className="button" href="mailto:contact@sebastiencarret.fr"><FontAwesomeIcon icon={faEnvelope} size="1x" /> Me contacter</Button>
             </Nav>
           </Collapse>
         </Navbar>

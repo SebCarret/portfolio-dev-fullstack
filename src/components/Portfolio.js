@@ -56,7 +56,7 @@ class Portfolio extends React.Component {
                     <CardText>Site vitrine (portfolio & CV en ligne) développé seul en front-end sous React en juin 2019.</CardText>
                     <div className="button-portfolio">
                       <Button className="details-button" onClick={this.toggle} style={{ marginBottom: '1rem' }}>{!this.state.collapse ? 'Détails' : 'Fermer'}</Button>
-                      <Button className="button">Github</Button>
+                      <Button className="code-button" href="https://github.com/SebCarret/portfolio-dev-fullstack" target="_blank">Github</Button>
                     </div>
                     <Collapse isOpen={this.state.collapse}>
                       <Card className="card-portfolio">
@@ -85,7 +85,7 @@ class Portfolio extends React.Component {
                     <CardText>Application mobile développée en équipe (3pers) sous Expo avec React Native en mai 2019.</CardText>
                     <div className="button-portfolio">
                       <Button className="details-button" onClick={this.toggleBis} style={{ marginBottom: '1rem' }}>{!this.state.secondCollapse ? 'Détails' : 'Fermer'}</Button>
-                      <Button className="button">Bitbucket</Button>
+                      <Button className="code-button">Bitbucket</Button>
                     </div>
                     <Collapse isOpen={this.state.secondCollapse}>
                       <Card className="card-portfolio">
@@ -114,7 +114,7 @@ class Portfolio extends React.Component {
                     <CardText>Site e-commerce démo développé seul en formation avec Express.js (Node.js) en avril 2019.</CardText>
                     <div className="button-portfolio">
                       <Button className="details-button" onClick={this.toggleLast} style={{ marginBottom: '1rem' }}>{!this.state.thirdCollapse ? 'Détails' : 'Fermer'}</Button>
-                      <Button className="button" href="https://banana-crumble-38867.herokuapp.com/" target="_blank">Heroku</Button>
+                      <Button className="code-button" href="https://banana-crumble-38867.herokuapp.com/" target="_blank">Heroku</Button>
                     </div>
                     <Collapse isOpen={this.state.thirdCollapse}>
                       <Card className="card-portfolio">
