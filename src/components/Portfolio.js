@@ -36,8 +36,8 @@ class Portfolio extends React.Component {
   render(){
 
     return (
-      <Fade bottom spy={this.props.onPortfolioClick}>
         <Container id="portfolio">
+          <Fade bottom spy={this.props.onPortfolioClick}>
           <Row className="h2">
             <h2>Projets développés</h2>
           </Row>
@@ -130,8 +130,8 @@ class Portfolio extends React.Component {
                 </Card>
               </Col>
             </Row>
+          </Fade>
         </Container>
-      </Fade>
     );
   }
 };

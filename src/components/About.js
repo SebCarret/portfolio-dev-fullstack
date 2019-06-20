@@ -10,8 +10,8 @@ class About extends React.Component {
   render(){
 
     return (
-      <Fade bottom spy={this.props.onAboutClick}>
         <Container id="about">
+          <Fade bottom spy={this.props.onAboutClick}>
 
           <Row>
             <Col id="about-header">
@@ -34,8 +34,8 @@ class About extends React.Component {
           <Row>
             <Button className="button" size="lg" href="https://www.sebastiencarret.fr/CV_SCarret_DevFullStackJS_2019.pdf" target="_blank">Voir le CV</Button>
           </Row>
-        </Container>
-      </Fade>
+        </Fade>
+      </Container>
     );
   }
 }

@@ -11,8 +11,8 @@ class Skills extends React.Component {
   render(){
 
     return (
-      <Fade bottom spy={this.props.onSkillsClick}>
         <Container id="skills">
+          <Fade bottom spy={this.props.onSkillsClick}>
           <Row>
             <Col className="h2">Langages & technologies</Col>
           </Row>
@@ -85,8 +85,8 @@ class Skills extends React.Component {
               </Progress>
             </Col>
           </Row>
-        </Container>
-      </Fade>
+        </Fade>
+      </Container>
     );
   }
 }
