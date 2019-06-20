@@ -80,7 +80,7 @@
   align-items: center;
   background-color: transparent;
   height: 100vh;
-  padding: 25px;
+  padding: 0px;
   border-radius: 10px;
   color: white;
   margin-bottom: 10px
@@ -189,7 +189,7 @@ h5 {
   flex-direction: column;
   background-color: transparent;
   height: 100vh;
-  padding: 25px;
+  padding-top: 40px;
   border-radius: 10px;
   color: white;
   margin-bottom: 10px

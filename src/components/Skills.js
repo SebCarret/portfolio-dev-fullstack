@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Container, Row, Col, Progress } from 'reactstrap';
+import { Progress } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faJs, faHtml5, faCss3Alt} from '@fortawesome/free-brands-svg-icons';
@@ -11,13 +11,10 @@ class Skills extends React.Component {
   render(){
 
     return (
-        <Container id="skills">
+        <div id="skills">
           <Fade bottom spy={this.props.onSkillsClick}>
-          <Row>
-            <Col className="h2">Langages & technologies</Col>
-          </Row>
-          <Row id="langages">
-            <Col>
+            <h2 className="h2">Langages & technologies</h2>
+            <div id="langages">
               <div>
                 <FontAwesomeIcon
                   icon={faJs}
@@ -26,8 +23,6 @@ class Skills extends React.Component {
                 />
                 <p>JavaScript</p>
               </div>
-            </Col>
-            <Col>
               <div>
                 <FontAwesomeIcon
                   icon={faHtml5}
@@ -36,8 +31,6 @@ class Skills extends React.Component {
                 />
                 <p>HTML</p>
               </div>
-            </Col>
-            <Col>
               <div>
                 <FontAwesomeIcon
                   icon={faCss3Alt}
@@ -46,47 +39,29 @@ class Skills extends React.Component {
                 />
                 <p>CSS</p>
               </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
+            </div>
               <h3 className="h3">Front-End</h3>
               <Progress className="progress" multi>
                 <Progress color="dark" bar animated value="50">React.js - React Native - Redux - Bootstrap</Progress>
                 <Progress striped bar color="info" value="50" />
               </Progress>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
               <h3 className="h3">Back-End</h3>
               <Progress className="progress" multi>
                 <Progress bar animated color="dark" value="60">Node.js - Express.js</Progress>
                 <Progress striped bar color="info" value="40" />
               </Progress>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
               <h3 className="h3">Bases de données & webservices</h3>
               <Progress className="progress" multi>
                 <Progress bar animated color="dark" value="50">MongoDB - API</Progress>
                 <Progress striped bar color="info" value="50" />
               </Progress>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
               <h3 className="h3">Versioning</h3>
               <Progress className="progress" multi>
                 <Progress bar animated color="dark" value="50">Git - Github - Bitbucket</Progress>
                 <Progress striped bar color="info" value="50" />
-
               </Progress>
-            </Col>
-          </Row>
         </Fade>
-      </Container>
+      </div>
     );
   }
 }
