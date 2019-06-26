@@ -20,20 +20,22 @@ class Header extends React.Component {
   render(){
 
     return (
-
-          <div className="header">
-            <FadeReveal top>
-              <h1>Bienvenue sur mon portfolio</h1>
-              <Container>
-                <Row>
-                  <Col xs="12" md={{size: 6, offset: 3}}>
-                    <p id="text-header">Parcours, langages & technologies maîtrisés, projets développés... En parcourant cette page, vous saurez tout de mes compétences de développement !</p>
-                  </Col>
-                </Row>
-              </Container>
-
-            </FadeReveal>
-          </div>
+      <Container>
+        <div className="header">
+          <FadeReveal top>
+            <Row>
+              <Col>
+                <h1>Bienvenue sur mon portfolio</h1>
+              </Col>
+            </Row>
+            <Row>
+              <Col xs="12" md={{size:6, offset:3}}>
+                <p id="text-header">Parcours professionnel, langages & technologies maîtrisés, projets développés, réseaux sociaux... Grâce au menu ci-dessus, vous en apprendrez plus sur mes compétences en développement. Bonne visite !</p>
+              </Col>
+            </Row>
+          </FadeReveal>
+        </div>
+      </Container>
     );
   }
 }

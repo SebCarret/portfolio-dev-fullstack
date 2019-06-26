@@ -1,9 +1,7 @@
-export default function (menu = {}, action) {
-  if (action.type === 'onDropdownLinkClick') {
-    var menuCopy = {...menu};
-    menuCopy.onMenuClick = action.menuClick;
-    return menuCopy;
+export default function (about = {}, action) {
+  if (action.type === 'onAboutClick' || action.type === 'onSkillsClick' || action.type === 'onPortfolioClick') {
+    return action.type;
   } else {
-    return menu;
+    return about;
   };
 }

@@ -1,13 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components import
 import Navbar from './components/Navbar';
-import Header from './components/Header';
-import About from './components/About';
-import Skills from './components/Skills';
-import Portfolio from './components/Portfolio';
+import Content from './components/Content';
 import Particles from './components/Particles';
 
 // Redux import
@@ -16,7 +12,7 @@ import {Provider} from 'react-redux';
 import {createStore, combineReducers} from 'redux';
 const store = createStore(combineReducers({menuClick}));
 
-class App extends React.Component {
+class App extends Component {
 
   render(){
 
@@ -25,10 +21,7 @@ class App extends React.Component {
         <div className="App">
           <Particles/>
           <Navbar/>
-          <Header/>
-          <About/>
-          <Skills/>
-          <Portfolio/>
+          <Content/>
         </div>
       </Provider>
     );

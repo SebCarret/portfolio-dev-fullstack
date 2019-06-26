@@ -1,7 +1,8 @@
 /* APP style */
 .App {
   text-align: center;
-  background: linear-gradient(#343A3F, #64E9EE)
+  width: 100% !important;
+  height: 100vh;
 }
 
 /* NAVBAR styles */
@@ -20,12 +21,21 @@
 .button {
   height: 40px !important;
   background: #64E9EE !important;
+  color: #343A3F;
   border: none !important;
   margin: 5px
 }
 
 .button:hover {
-  background: #5CC8FF !important;
+  background: white !important;
+  color: #343A3F
+}
+
+#icons-bloc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #dropdown-toggle {
@@ -79,8 +89,9 @@
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  height: 100vh;
-  padding: 0px;
+  height: 100vh !important;
+  width: 100 % !important;
+  padding-top: 40px;
   border-radius: 10px;
   color: white;
   margin-bottom: 10px
@@ -88,8 +99,9 @@
 
 #about-header {
   border-radius: 5%;
-  margin-top: 60px;
   padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   background: transparent;
   border: 2px solid #64E9EE;
 }
@@ -112,10 +124,13 @@
 }
 
 #text-about {
-  width: 50%;
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: justify
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify !important;
 }
 
 /* SKILLS styles */
@@ -124,11 +139,10 @@
   flex-direction: column;
   justify-content: center;
   background-color: transparent;
-  height: 100vh;
-  padding: 25px;
+  height: 100vh !important;
+  padding-top: 40px;
   border-radius: 10px;
   color: white;
-  margin-top: 10px;
   margin-bottom: 10px
 }
 
@@ -154,15 +168,25 @@
 }
 
 .progress {
-  height: 25px !important;
-  font-size: 17px !important
+  height: 30px !important;
+  font-size: 25px !important;
+  margin-top: 20px
+}
+
+.text-dev {
+  text-align: left;
+  color: #64E9EE;
+  margin-top: 5px
 }
 
 /* PARTICLES style */
 #particles {
   position:fixed !important;
-  width:100%;
-  height:100%
+  min-width:100% !important;
+  min-height: 100%;
+  background: #343A3F;
+  margin: 0 !important
+
 }
 
 /* TITLES styles */
@@ -170,6 +194,7 @@ h1 {
   font-family: Poppins !important;
   font-size: 50px !important;
   font-weight: bold !important;
+  margin: 10px
 }
 
 h4 {
@@ -184,11 +209,10 @@ h5 {
 
 /* PORTOFOLIO styles */
 #portfolio {
-  position: static;
   display: flex;
   flex-direction: column;
   background-color: transparent;
-  height: 100vh;
+  height: 100vh !important;
   padding-top: 40px;
   border-radius: 10px;
   color: white;
@@ -205,12 +229,20 @@ h5 {
   margin-right: 0px !important
 }
 
+.project-title {
+  color: #64E9EE
+}
+
 .projects-details {
-  color: #343A3F;
+  color: white;
   margin: 5px;
   background-color: transparent !important;
   border-radius: 5% !important;
-  border: 2px solid #343A3F !important
+  border: 2px solid #64E9EE !important
+}
+
+#row-projects {
+  background-color: #64E9EE
 }
 
 .button-portfolio {
@@ -224,29 +256,20 @@ h5 {
   margin: 10px
 }
 
-.details-button {
-  height: 40px !important;
-  background: #343A3F !important;
-  border: none !important;
-  margin: 5px
-}
-
-.details-button:hover {
-  background: #5CC8FF !important;
-}
-
 .card-portfolio {
-  background-color: #343A3F !important;
-  color: white
+  background-color: #64E9EE !important;
+  color: #343A3F
 }
 
 .code-button {
   height: 40px !important;
-  background: #2191FB !important;
+  background: white !important;
+  color: #343A3F;
   border: none !important;
   margin: 5px
 }
 
 .code-button:hover {
-  background: #5CC8FF !important
+  background: #64E9EE !important;
+  color: #343A3F;
 }
