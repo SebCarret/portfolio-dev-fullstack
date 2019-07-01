@@ -9,7 +9,7 @@ export default class About extends React.Component {
   render(){
 
     return (
-      <Container>
+      <Container className="content">
         <div id="about">
           <Fade bottom>
             <Row>

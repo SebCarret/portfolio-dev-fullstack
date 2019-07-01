@@ -20,7 +20,7 @@ class Header extends React.Component {
   render(){
 
     return (
-      <Container>
+      <Container className="content">
         <div className="header">
           <FadeReveal top>
             <Row>

@@ -52,8 +52,8 @@ export default class DevSkills extends React.Component {
             <Row>
               <Col>
                 <Progress className="progress" multi>
-                  <Progress color="dark" bar animated value="50">Front-End</Progress>
-                  <Progress striped bar color="info" value="50" />
+                  <Progress color="dark" bar animated value="55">Front-End</Progress>
+                  <Progress striped bar color="info" value="45" />
                 </Progress>
               </Col>
             </Row>
@@ -78,8 +78,8 @@ export default class DevSkills extends React.Component {
             <Row>
               <Col>
                 <Progress className="progress" multi>
-                  <Progress bar animated color="dark" value="50">BDD & API</Progress>
-                  <Progress striped bar color="info" value="50" />
+                  <Progress bar animated color="dark" value="40">BDD & API</Progress>
+                  <Progress striped bar color="info" value="60" />
                 </Progress>
               </Col>
             </Row>
@@ -91,8 +91,8 @@ export default class DevSkills extends React.Component {
             <Row>
               <Col>
                 <Progress className="progress" multi>
-                  <Progress bar animated color="dark" value="50">Versioning</Progress>
-                  <Progress striped bar color="info" value="50" />
+                  <Progress bar animated color="dark" value="45">Versioning</Progress>
+                  <Progress striped bar color="info" value="55" />
                 </Progress>
               </Col>
             </Row>

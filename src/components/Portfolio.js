@@ -35,7 +35,7 @@ export default class Portfolio extends React.Component {
   render(){
 
     return (
-      <Container className="projects">
+      <Container className="content">
         <div id="portfolio">
           <Fade bottom>
             <Row>

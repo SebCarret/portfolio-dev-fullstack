@@ -52,17 +52,17 @@ import {
                 <Nav className="ml-auto" navbar>
                   <div id="icons-bloc">
                     <NavItem>
-                      <NavLink href="https://www.linkedin.com/in/s%C3%A9bastien-carret/">
+                      <NavLink href="https://www.linkedin.com/in/s%C3%A9bastien-carret/" target="_blank">
                       <FontAwesomeIcon className="icons" icon={faLinkedin} size="2x"/>
                     </NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink href="https://twitter.com/Seb_KrAY">
+                      <NavLink href="https://twitter.com/Seb_KrAY" target="_blank">
                       <FontAwesomeIcon className="icons" icon={faTwitterSquare} size="2x"/>
                     </NavLink>
                     </NavItem>
                       <NavItem>
-                        <NavLink href="https://github.com/SebCarret">
+                        <NavLink href="https://github.com/SebCarret" target="_blank">
                         <FontAwesomeIcon className="icons" icon={faGithubSquare} size="2x"/>
                       </NavLink>
                     </NavItem>
